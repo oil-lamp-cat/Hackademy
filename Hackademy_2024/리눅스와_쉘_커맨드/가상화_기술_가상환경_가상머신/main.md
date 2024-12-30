@@ -22,25 +22,25 @@
 
 완전히 반대의 경우도 가능합니다. Windows 안에 MacOS 를 실행할 수도 있습니다.
 
-![image.png](image%201.png)
+![image.png](image_1.png)
 
 Qemu, Virtual Box, VMware Workstation, VMware Fusion 등 프로그램을 통해 가상환경을 만들 수 있습니다. 이런 프로그램들은 가상머신을 만들고, 그 가상머신과 실제 존재하는 모니터, 키보드, 마우스 등을 자동으로 연결해줍니다.
 
-![image.png](image%202.png)
+![image.png](image_2.png)
 
-![image.png](image%203.png)
+![image.png](image_3.png)
 
 그 중에서 가장 세팅하기 쉬운 docker 를 사용하도록 하겠습니다.
 
 docker 를 사용하면 여러개의 가상환경을 생성하고 삭제하는 것이 다른 프로그램들에 비해 훨씬 쉽습니다. 
 
-![image.png](image%204.png)
+![image.png](image_4.png)
 
 # 게스트(Guest), 호스트(Host)
 
 가상머신(Virtual Machine) 을 생성했을때, 가상머신 안에서 작동하는 OS 를 손님이라는 의미에서 Guest OS 라고 부릅니다.  가상머신을 작동시키는 OS, 그러니까 먼저 설치된 OS 를 주인이라는 의미에서 호스트(Host) 라고 부릅니다.
 
-![image.png](image%205.png)
+![image.png](image_5.png)
 
 예를 들어, MacOS 안에 Windows 를 설치하면, 
 
@@ -50,4 +50,4 @@ Guest OS = Windows
 
 가 되는 것 입니다.
 
-![image.png](image%206.png)
+![image.png](image_6.png)
